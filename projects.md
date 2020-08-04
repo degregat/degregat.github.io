@@ -20,7 +20,7 @@ When differential privacy is used in [mechanism design](http://kunaltalwar.org/p
 A solution to this issue can be to [distribute](https://www.iacr.org/archive/eurocrypt2006/40040493/40040493.pdf) the execution of the central model of differential privacy. Using secure multiparty computation, the curator gets distributed over multiple computational entities, of which some can be compromised, while still keeping certain integrity guarantees.
 This way, neither the clients need to be trusted, nor does the mechanism rely on a single trusted party.
 
-I am currently working on expanding the capabilities of [libprio](https://github.com/mozilla/libprio/) to provide this. Most of the research problems have been solved, this project aims to achieve a robust, scalable and secure implementation.
+I am currently working on integrating [secure summation of libprio](https://github.com/mozilla/libprio/) with the [discrete gaussian of googles differential privacy library](https://github.com/google/differential-privacy) to provide this. Most of the research problems have been solved, this project aims to achieve a robust, scalable and secure implementation.
 
 # Past
 
