@@ -17,7 +17,7 @@ When differential privacy in the local model is used as a data privacy technique
 
 When differential privacy is used in [mechanism design](http://kunaltalwar.org/papers/expmech.pdf), it usually bounds the influence of each participant on the outcome, thus they have a motivation to *not* execute it correctly. Using a trusted curator (central model) leads to the issues that come with having a single trusted node.
 
-A solution to this issue can be to [distribute](https://www.iacr.org/archive/eurocrypt2006/40040493/40040493.pdf) the execution of the central model of differential privacy. Using secure multiparty computation, the curator gets distributed over multiple compuatational entities, of which some can be compromised, while still keeping certain integrity guarantees.
+A solution to this issue can be to [distribute](https://www.iacr.org/archive/eurocrypt2006/40040493/40040493.pdf) the execution of the central model of differential privacy. Using secure multiparty computation, the curator gets distributed over multiple computational entities, of which some can be compromised, while still keeping certain integrity guarantees.
 This way, neither the clients need to be trusted, nor does the mechanism rely on a single trusted party.
 
 I am currently working on expanding the capabilities of [libprio](https://github.com/mozilla/libprio/) to provide this. Most of the research problems have been solved, this project aims to achieve a robust, scalable and secure implementation.
