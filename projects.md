@@ -11,7 +11,7 @@ Recent advances in [Mechanism Learning](https://econcs.seas.harvard.edu/files/ec
 
 I am currently working on making an [optimal auction learner](https://github.com/degregat/deep-opt-auctions) approximately truthful, while removing the requirement to know the valuation distributions of the agents a priori.
 
-## Distributing the Central Model for Differential Privacy
+## Distributing the Central Model for Differential Privacy (towards a practical Somewhat Trustworthy Curator)
 
 When differential privacy in the local model is used as a data privacy technique in a distributed computation, participants guard their own privacy when executing a DP mechanism correctly, thus they have a strong motivation to do so.
 
@@ -20,7 +20,7 @@ When differential privacy is used in [mechanism design](http://kunaltalwar.org/p
 A solution to this issue can be to [distribute](https://www.iacr.org/archive/eurocrypt2006/40040493/40040493.pdf) the execution of the central model of differential privacy. Using secure multiparty computation, the curator gets distributed over multiple computational entities, of which some can be compromised, while still keeping certain integrity guarantees.
 This way, neither the clients need to be trusted, nor does the mechanism rely on a single trusted party.
 
-I am currently working on integrating [secure summation of libprio](https://github.com/mozilla/libprio/) with the [discrete gaussian of googles differential privacy library](https://github.com/google/differential-privacy) to provide this. Most of the research problems have been solved, this project aims to achieve a robust, scalable and secure implementation.
+I am currently working on integrating the [secure summation of libprio](https://github.com/mozilla/libprio/) with the [discrete gaussian of googles differential privacy library](https://github.com/google/differential-privacy) to provide this. Most of the research problems have been solved, this project aims to achieve a robust, scalable and secure implementation.
 
 # Past
 
