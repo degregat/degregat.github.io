@@ -9,7 +9,7 @@ title: Projects
 
 Recent advances in [Mechanism Learning](https://econcs.seas.harvard.edu/files/econcs/files/duetting_fed19.pdf), as well as the availability of readily usable [frameworks for differentially private learning](https://github.com/tensorflow/privacy) make it feasible to apply the following [result](http://kunaltalwar.org/papers/expmech.pdf) to mechanism learning: Differential privacy "can ensure that participants have limited effect on the outcome of the mechanism, and as a consequence have limited incentive to lie." 
 
-I am currently working on making an [optimal auction learner](https://github.com/degregat/deep-opt-auctions) approximately truthful, while removing the requirement to know the valuation distributions of the agents a priori.
+I am currently working on making a [learner](https://github.com/degregat/deep-opt-auctions) for optimal combinatorial auctions approximately truthful, while removing the requirement to know the valuation distributions of the agents a priori.
 
 ## Distributing the Central Model for Differential Privacy (towards a practical Somewhat Trustworthy Curator)
 
