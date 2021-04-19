@@ -5,13 +5,19 @@ title: Projects
 
 # Current
 
-## Robust Mechanism Learning
+
+
+## Robust Distributed Mechanism Learning
+
+You can find a detailed explanation and the current state of research and implementation [here](https://github.com/degregat/dist-mech-learn) as well as our [WIP paper](https://arxiv.org/abs/2104.00159). What follows are intros to the two major building blocks.
+
+### Robust Mechanism Learning
 
 Recent advances in [Mechanism Learning](https://econcs.seas.harvard.edu/files/econcs/files/duetting_fed19.pdf), as well as the availability of readily usable [frameworks for differentially private learning](https://github.com/tensorflow/privacy) make it feasible to apply the following [result](http://kunaltalwar.org/papers/expmech.pdf) to mechanism learning: Differential privacy "can ensure that participants have limited effect on the outcome of the mechanism, and as a consequence have limited incentive to lie." 
 
 I am currently working on making a [learner](https://github.com/degregat/deep-opt-auctions) for optimal combinatorial auctions approximately truthful, while removing the requirement to know the valuation distributions of the agents a priori.
 
-## Distributing the Central Model for Differential Privacy (towards a practical Somewhat Trustworthy Curator)
+### Distributing the Central Model for Differential Privacy (towards a practical Somewhat Trustworthy Curator)
 
 When differential privacy in the local model is used as a data privacy technique in a distributed computation, participants guard their own privacy when executing a DP mechanism correctly, thus they have a strong motivation to do so.
 
